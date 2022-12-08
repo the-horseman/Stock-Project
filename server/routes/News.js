@@ -35,148 +35,47 @@ var dotask = (article) => {
 }
 
 router.post('/', async (req, res) => {
-    res.send([
-        {
-            "source": {
-                "id": null,
-                "name": "NDTV News"
-            },
-            "author": null,
-            "title": "Twitter Thinks This 1956 Refrigerator Has Better Features Than The Ones In 2022 - NDTV Food",
-            "description": "A vintage fridge from 1958 has left the internet stunned. The video has amassed over 9.2 million views in less than 48 hours.",
-            "url": "https://food.ndtv.com/news/this-1956-refrigerator-has-more-features-than-the-ones-today-and-the-internet-is-impressed-3188227",
-            "urlToImage": "https://c.ndtvimg.com/2022-07/o3git6d_vintage-fridge_625x300_24_July_22.jpg",
-            "publishedAt": "2022-07-24T07:42:05Z",
-            "content": "The subcompact SUV segment in India is set to become more diverse with the introduction of premium contenders from Toyota and Maruti. The Maruti Grand Vitara in particular is poised to be a strong disruptor in terms of market share, potentially displacing Hyundai Creta from the segment’s throne.  The Maruti and Toyota SUVs will also be introducing strong hybrid powertrain in this segment as well as being petrol-only offerings. According to Maruti’s data, diesel models account for 51 percent of the segment’s sales. This is a strong contrast to the subcompact SUV segment, dominated by Maruti with the Brezza, where petrol models currently account for 80 percent of sales.   The compact SUV segment accounts for 18 percent of Indian passenger vehicle market share, and has grown by 45 percent just in the last three years. This segment is currently populated by the Hyundai Creta, Kia Seltos, Skoda Kushaq, Volkswagen Taigun, MG Astor, Nissan Kicks and soon-to-be-discontinued Maruti S-Cross. Only the Creta and Seltos are available with a diesel engine and is certainly the reason why these two are the best selling SUVs in this space.  The petrol-only models from Skoda-VW, Maruti, MG and Nissan presently account for just around 23 percent of the compact SUV market share. With the introduction of the Maruti Grand Vitara, which is poised to be far more successful than the S-Cross, the segment’s balance could shift heavily towards petrol powertrains. A similar shift was witnessed in the subcompact SUV segment as well. In 2018, diesel models accounted for 80 percent of the segment sales, the opposite of today’s share. Back then, the Maruti Vitara Brezza dominated the segment and it was offered with a diesel engine only. In March 2020, the segment leader became a petrol-only offering which had a significant impact in petrol models, accounting for the lion’s share of the segment.  While the share split between petrol and diesel models in the compact SUV may not be as one-sided as it is for the subcompact SUV space, it could reduce diesel models to a minority share.",
-            "analysis": 0.2857142857142857
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Livemint"
-            },
-            "author": "mint",
-            "title": "Nifty volatility may spike amid event heavy week | Mint - Mint",
-            "description": "It will be interesting to see FIIs' behavior because, after a long time, they become a net buyer for the week",
-            "url": "https://www.livemint.com/market/stock-market-news/nifty-volatility-may-spike-amid-event-heavy-week-11658645559267.html",
-            "urlToImage": "https://images.livemint.com/img/2022/07/24/600x338/Nifty_1658646146391_1658646146522_1658646146522.jpg",
-            "publishedAt": "2022-07-24T07:07:01Z",
-            "content": "Indian equity benchmark indices Nifty and Sensex gained more than 4% last week with positive closing each day thanks to buying by FIIs, recovery in global market, some cool off in dollar index and commodity market, easing inflation fear, better than expected Q1 earnings so far.                             This week is going to be an event heavy therefore we can expect a spike in volatility. The market will react to 30% of Nifty's earnings on Monday morning because we have results of Reliance, ICICI Bank, Kotak Bank, and Infosys over the weekend. Apart from this, many Nifty50 companies will announce their Q1 earnings during the weekdays.                                      We will have July month F&O expiry on Thursday which may also lead to volatility in the overall market.                            On the global front, the US FOMC meeting outcome on 27th July will be the most critical event and the movement of the dollar index and crude oil prices will be other important factors.                          It will be interesting to see FIIs' behavior because, after a long time, they become a net buyer for the week.                          Technically, the market is in strong bullish momentum however 16800 is an immediate hurdle for the Nifty then 200-DMA around 17000 will be the next critical hurdle therefore 16800-17000 zone will be a sacrosanct supply zone where we can expect some profit booking however a decisive move above 17000, may lead to a strong rally in the market. On the downside, 100-DMA around 16500 will be an immediate support level then 16340 will be the next critical support level.                          Bank Nifty has more strength as it manages to close above its 200-DMA however 37000 level is a major trendline resistance; above this, we can expect a major rally towards 37500/38000 levels. On the downside, 36000-35700 will act as an immediate and strong demand zone.                          If we look at the derivative data then the Open interest distribution for the 28th July expiry suggests a range of 16500-17000. Long exposure of FIIs in index future has jumped to 45% and put call ratio is placed at 1.42 mark, both are indicating a positive bias.",
-            "analysis": 0
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Cardekho.com"
-            },
-            "author": "Sonny",
-            "title": "Maruti, Toyota Aim To End Diesel Powertrain Dominance In Compact SUV Segment With Grand Vitara And Hyryder Hybrid - CarDekho",
-            "description": "Even with a higher number of petrol-only models to choose from, a majority of the compact SUV sales are of diesel models  The subcompact SUV segment in India is set to become more diverse with the introduction of premium contenders from Toyota and Maruti. The…",
-            "url": "https://www.cardekho.com/india-car-news/maruti-toyota-aim-to-end-diesel-powertrain-dominance-in-compact-suv-segment-with-grand-vitara-and-hyryder-hybrid-29434.htm",
-            "urlToImage": "https://stimg2.cardekho.com/images/carNewsimages/userimages/650X420/29433/1658644756111/GeneralNews.jpg",
-            "publishedAt": "2022-07-24T06:35:00Z",
-            "content": "The Indian rupee continues on a downward slope and touched a low of 80 rupees per US Dollar (USD) this week. Global macro-economic headwinds coupled with the geopolitical situation have created this situation for the slide to continue. From January 2022 till date, the rupee has fallen more than 7 percent against the USD.Historically, the downfall of the rupee has always been considered an attractive investment opportunity by NRI investors. Borrowing funds outside India at cheaper rates and then investing the same in India for higher returns can create a plethora of investment opportunities in India.For NRIs with thoughts of investing in India, or repatriating income to their family in India, the depreciation in the rupee makes the repatriated dollars much more valuable to spend and save. Let us look at possible avenues where an NRI investor can invest and deploy money in India.Fixed IncomeWith the recent rise in interest rates, term deposits may find themselves in favour of risk-averse investors. Currently, interest rates on Non-Resident External (NRE) term deposits range from 5.30 percent to 5.75 percent, for tenures ranging from one to ten years. NRE deposits also come with an added advantage of being tax-exempt for interest in India and provide an option to repatriate the entire money to the foreign country when necessary.« Back to recommendation storiesI don't want to see these stories becauseThey are not relevant to meThey disrupt the reading flowOthersSUBMITAs NRE term deposit interest is credited in the Indian rupee, there may be an exchange rate fluctuation risk when they wish to repatriate the amount back to their home country. If the NRI investor is not ready to bear the exchange rate risk, they may opt for foreign currency non-resident (FCNR) deposits. FCNR deposits are deposits made with Indian banks in foreign currency (for example USD). RBI has temporarily allowed banks to raise fresh FCNR(B) and NRE deposits from NRIs, during the period 07 July 2022 to 31 October 2022 without reference to the current regulations on interest rates. Following this relaxation, multiple banks have revised their FCNR deposit rates and these interest rates now range from 2.85 percent to 3.50 percent (in USD), for tenures of one year to less than 5 years.Debt Mutual FundsDebt Mutual Funds (MFs) are also a possible avenue for NRIs to invest in, where payment of regular interest is not preferred. Debt MFs are tax-efficient and may offer an opportunity to earn higher returns compared to other fixed-income investments. There are various NRI mutual fund schemes where investment can be made subject to specified conditions.Equity and Equity Mutual FundsWith rising market volatility and recessionary fears, investment in equity may not seem like a preferred investment option at this point. However, for a savvy long-term investor with a longer investment horizon, this may prove to be an excellent opportunity. Stocks and equity mutual funds offer a higher chance of inflation-beating and tax-efficient returns to investors and they will be lucrative to NRI investors who are sitting on the sidelines to invest their money and can invest (subject to specified conditions). Every investor should be conscious of the fact that investments in equity are prone to market risks and volatility.An important aspect that NRIs should be aware of is the requirement of FATCA compliances. The FATCA or the Foreign Account Tax Compliance Act requires all financial institutions to mandatorily share details of all transactions involving US citizens or Residents with the US government. It is to ensure that there is no deliberate tax evasion on the income earned by US citizens/residents, overseas. The Government of India has also signed an Inter-Government Agreement (IGA) with the USA to improve International Tax Compliance and implement FATCA. However, FATCA applies only to US persons (i.e., US Citizens or Residents for US tax purposes).Real estateFor Indians, real estate has always been considered a great avenue to invest. The falling rupee makes it an ideal time to make a down payment for NRIs looking to buy a house property or pre-pay a part of the housing loan given the fact that every dollar would bring in more rupees. NRIs looking to relocate to India in the foreseeable future may also find it an excellent time to take advantage of the favourable exchange rate. However, it is pertinent to note that NRIs and OCIs are not allowed to buy agricultural land or plantations, or farmhouses in India.With the Indian rupee finding it difficult to maintain its value against a resurgent USD, it may very well be a great time for an NRI to repatriate money to India. The NRI investors need to be vigilant and consider the interest rate and tax implications while choosing the right investment asset.",
-            "analysis": -0.041666666666666664
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "ET CONTRIBUTORS",
-            "title": "An NRI investor's guide to navigating Rupee at 80 - Economic Times",
-            "description": "Historically, the downfall of the rupee has always been considered an attractive investment opportunity by NRI investors. Borrowing funds outside India at cheaper rates and then investing the same in India for higher returns can create a plethora of investmen…",
-            "url": "https://economictimes.indiatimes.com/nri/invest/an-nri-investors-guide-to-navigating-rupee-at-80/articleshow/93085199.cms",
-            "urlToImage": "https://img.etimg.com/thumb/msid-93085267,width-1070,height-580,imgsize-1360453,overlay-economictimes/photo.jpg",
-            "publishedAt": "2022-07-24T05:17:00Z",
-            "content": "This video of a vintage refrigerator has taken the internet by storm.Photo credits: Screengrabs from Twitter video by @lostinhistoryIt is a given that technology ought to make life easier. Over the years, most appliances have undergone major transformations from what they originally looked to improve their utility as well as design. But a video from the 1950s featuring a refrigerator has now gone viral on social media, and it has the internet unanimously preferring its features to the ones seen in the refrigerators available today. The black and white video features a woman taking the viewers through the various features of the refrigerator, and as the video progresses, you will be left spellbound.In the video, the fridge is shown to have a special place for bottles and canned goods, butter as well as a space for cheeses. Below this is a glass box to store vegetables that “tilts down to show you your supply at a glance” and even lifts out of the fridge for ease of handling. The shelves in the fridge can be slid outside so you don't have to pull objects to get to the ones in the back. The freezer also has space for several ice trays and pushes out the ice cubes easily.The video was shared by the Twitter handle “Lost in history” along with the note, “Why's this 66-year-old fridge better than the one I got now.” The clip has amassed over 9.2 million views in less than 48 hours. Watch it here:Why's this 66 year old fridge better than the one I got now pic.twitter.com/oFfu1CFfvI— Lost in history (@lostinhist0ry) July 22, 2022Reacting to the video, one user agreed that the refrigerators of the past were sturdier. The tweet reads, “I used the 40s-50s GE fridges for years. They're almost literally bombproof, and I finally had to suck it up and buy a new one recently. Best feature was the \"butter conditioner\" pocket. My favorite was the '56 lazy Susan fridge. It was just like this one.\"I used 40s-50s GE fridges for years. They're almost literally bombproof. I finally had to suck it up and buy a new one recently. Best feature were the \"butter conditioner\" pocket. My favorite was the '56 lazy susan fridge. It was just like this one: pic.twitter.com/9syNlTE9I2— El RAYO X ???? (@NialMaloney) July 22, 2022“My 82-year-old mum still uses the same electric cooker we had when I was a child. It's about 55 years old and still works fine!” another comment said.My 82 year old mum still uses the same electric cooker we had when I was a child. It's about 55 years old and still works fine!— Old Ironsides (@1645NasebyFree) July 22, 2022Summing up what a lot of people feel, one user asked, “Have we regressed in terms of convenience in electronics. This is way better than fridges of modern times.”“Things are built to be obsolete today. It's the basis of most of the modern economy. Back then things were built to last & u could actually fix them yourself if something broke down. Today they make it convenient to just buy a new one every 3-5 years. Everything is garbage today,” another user noted.Things are built to be obsolete today. It's the basis of most of the modern economy. Back then things were built to last & u could actually fix them yourself if something broke down. Today they make it convenient to just buy a new one every 3-5 years. Everything is garbage today. https://t.co/JvGol2gPJJ— Mattie AKA The Wizard of Boz (@NaberiusWizard) July 23, 2022“Today's appliances really doing the bare minimum for top prices.”todays appliances really doing the bare minimum for top prices.???? https://t.co/3QCjeZ7rIp— Charles Hunter III (@thesaltedtable) July 23, 2022Tell us what you think of the vintage refrigerator.",
-            "analysis": 0.13043478260869565
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Moneycontrol"
-            },
-            "author": "Sunil Shankar Matkar",
-            "title": "Dalal Street Week Ahead | 10 key factors that will keep traders busy next week - Moneycontrol",
-            "description": "There could be caution and volatility next week especially ahead of the US Fed meeting and monthly expiry of futures &amp; options contracts, though overall bulls are expected to have an upper hand as we have seen 10 percent recovery in the last five weeks fr…",
-            "url": "https://www.moneycontrol.com/news/business/markets/dalal-street-week-ahead-10-key-factors-that-will-keep-traders-busy-next-week-39-8875651.html",
-            "urlToImage": "https://images.moneycontrol.com/static-mcnews/2017/03/sensexup-770x433.jpg",
-            "publishedAt": "2022-07-24T05:03:00Z",
-            "content": "NEW DELHI:  is likely to report a 7-8 per cent growth in profit on a double digit growth in sales. Ebit margin may see a sequential fall on account of wage revisions and rise in travel costs, which analysts said,could be offset by increase in margins of manufacturing vertical and modest depreciation of 1.4 per cent in rupee.The IT major is unlikely to change its revenue growth guidance of 13-15 per cent in constant currency terms and EBIT margin guidance of 21-23 per cent for FY23 when it announces its quarterly earnings on Sunday, said analysts. Kotak Institutional Equities expects Infosys to report a 7.2 per cent YoY rise in net profit at Rs 5,568.10 crore from Rs 5,195 crore in the same quarter last year. Revenue for the quarter jumped 22.5 per cent YoY to Rs 34,164.20 crore from Rs 27,896 crore in the year-ago quarter. Ebit margin is seen falling to 20.8 per cent from 21.6 per cent in March and 23.7 per cent in the year-ago quarter.\"We forecast sequential strong CC revenue growth rate of 4.5 per cent QoQ, driven by continued strength in discretionary spending by clients. Pass through elements could stay elevated. We forecast 80 bps sequential and 290 bps YoY decline in EBIT margin,\" it said. Sharekhan expects profit for the IT major to come in at Rs 5,606 crore, up 7.9 per cent YoY. It sees revenue for the Bengaluru-based firm coming in at Rs 34,129 crore. Dollar revenue is seen rising 16.9 per cent YoY to $4,421 million from $3,782 million while Ebit margin is seen at 20.9 per cent. \"We expect growth guidance to stay front-ended i.e. expect strong growth commentary for September quarter. We believe high attrition is a worrying sign. The concern has shifted to onsite, where attrition among local headcount is higher than offshore attrition. Quantum of wage increase onsite will be an area of focus,\" it said.Emkay Global sees profit rising 7.3 per cent to Rs 5,576 crore and sales jumping 22.1 per cent to Rs 34,054.80 crore. Investors, it said, would be keenly following large deals intake; any delay of projects due to macro uncertainties, high inflation and supply chain disruptions and update on client conversations.(Disclaimer: Recommendations, suggestions, views, and opinions given by the experts are their own.",
-            "analysis": 0.06896551724137931
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Hindustan Times"
-            },
-            "author": "HT News Desk",
-            "title": "Elon Musk's ‘money doesn’t have power' video goes viral. Watch - Hindustan Times",
-            "description": "Elon Musk said money is a database for the exchange of goods and services. As the video went viral again, many social media users commented that only the world's richest man can say that money has no power. | World News",
-            "url": "https://www.hindustantimes.com/world-news/elon-musk-s-money-doesn-t-have-power-video-goes-viral-watch-101658635350679.html",
-            "urlToImage": "https://images.hindustantimes.com/img/2022/07/24/1600x900/TESLA-BATTERIES--1_1658635944989_1658635944989_1658635975926_1658635975926.JPG",
-            "publishedAt": "2022-07-24T04:23:30Z",
-            "content": "An old video of the world's richest man, Elon Musk, saying that money has no power in itself, has gone viral as Elon Musk on Sunday posted a 'yes' to the video implying that he stands by his comment in the viral video. The viral clip is from an interview in April this year after Elon Musk announced his intention to buy Twitter, which now got stalled.\"People get confused sometimes they think an economy is money. Money is a database for exchange of goods & services. Money doesn't have power in & of itself. The actual economy is goods & services,\" Elon Musk said in the video.\"People get confused sometimes they think an economy is money. Money is a database for exchange of goods & services. Money doesn't have power in & of itself. The actual economy is goods & services\"- @elonmusk pic.twitter.com/TzquCRWNqb— DogeDesigner (@cb_doge) July 23, 2022 As the video went viral again, many social media users commented that only the world's richest man can say that money has no power. In 2021, Elon Musk was the second richest person in the world, after Amazon founder Jeff Bezos. In 2022, Elon Musk became the richest man with a net worth of $219 billion.Elon Musk's proposed Twitter deal went kaput after Musk terminated the deal over the issue of fake and spam accounts. Twitter took a legal move against Musk.In the legal battle, Twitter scored an early win against Musk as the judge agreed to fast-track the case. An October trial date has been given.Twitter has blamed Elon Musk for its recent loss of avenue as the social media platform missed expectations with revenue of $1.18 billion, due to 'advertising industry headwinds as well as uncertainty related to the pending acquisition of Twitter by an affiliate of Elon Musk'.ABOUT THE AUTHORFollow the latest breaking news and developments from India and around the world with Hindustan Times' newsdesk.",
-            "analysis": 0.041666666666666664
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "Amit Mudgill",
-            "title": "Infosys Q1 preview: Profit may rise 7-8% YoY; FY23 guidance likely to be retained - Economic Times",
-            "description": "The IT major is unlikely to change its revenue growth guidance of 13-15 per cent in constant currency terms and EBIT margin guidance of 21-23 per cent for FY23 when it announces its quarterly earnings on Sunday, said analysts. Kotak Institutional Equities exp…",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/infosys-q1-preview-profit-may-rise-7-8-yoy-fy23-guidance-likely-to-be-retained/articleshow/93074046.cms",
-            "urlToImage": "https://img.etimg.com/thumb/msid-93074134,width-1070,height-580,imgsize-19632,overlay-etmarkets/photo.jpg",
-            "publishedAt": "2022-07-24T03:55:00Z",
-            "content": "It was a great week for the market as benchmark indices reclaimed milestones one after the other and rallied more than four percent in the week ended July 22, aided by rangebound and falling oil prices, renewed buying by foreign institutional investors (FIIs), and positive mood in global markets.The BSE Sensex climbed more than 2,300 points to 56,072 and the Nifty50 jumped 670 points to 16,719 as all sectors contributed to this rally with IT, banks, capital goods, and metal being prominent gainers.The rally was also seen in the broader space as Nifty Midcap 100 and Smallcap 100 indices gained 3.7 and 4.6 percent respectively.In the coming week, market participants will first react to earnings of index heavyweights Reliance Industries, Infosys, ICICI Bank, and Kotak Mahindra Bank. There could be caution and volatility next week especially ahead of US Fed meeting and monthly expiry of futures & options contracts, though overall bulls are expected to have an upper hand as we have seen 10 percent recovery in the last five weeks from 52 week lows, experts said.\"The forthcoming week will be action-packed with activities. The US Fed meeting and press conference will take centre stage. Besides that, the release of the United States quarter on quarter GDP figures would have an impact on market sentiment,\" Apurva Sheth, head of market perspectives at Samco Securities, said.In Indian markets, she said: \"One can expect some volatility as we approach monthly expiry.\"Here are 10 key factors that will keep traders busy next week:1) Corporate EarningsMore than 400 companies are going to release their corporate earnings scorecards next week, including 18 Nifty50 firms which are Axis Bank, Tata Steel, Tech Mahindra, Asian Paints, Bajaj Auto, Larsen & Toubro, Bajaj Finance, Maruti Suzuki India, Tata Motors, Bajaj Finserv, Dr Reddy's Laboratories, Nestle India, Shree Cement, SBI Life Insurance Company, Cipla, HDFC, NTPC, and Sun Pharma.Also announcing quarterly earnings next week are Indian Oil Corporation, Canara Bank, Union Bank of India, Vedanta, Punjab National Bank, Bank of Baroda, Tata Power, Macrotech Developers, Glaxosmithkline Pharmaceuticals, Indian Energy Exchange, KPIT Technologies, Tanla Platforms, Tatva Chintan Pharma Chem, Tejas Networks, Aditya Birla Sun Life AMC, United Spirits, UTI AMC, Biocon, Colgate-Palmolive, Coromandel International, Dixon Technologies, Poonawalla Fincorp, VIP Industries, Welspun India, Equitas Small Finance Bank, Jubilant FoodWorks, Mahindra & Mahindra Financial Services, SBI Cards and Payment Services, TVS Motor Company, Ashok Leyland, DLF, Emami, Exide Industries, Mahindra Logistics, Metro Brands, Star Health, Sundaram-Clayton, Torrent Pharmaceuticals, DCB Bank, IDFC First Bank, Indian Bank, and Multi Commodity Exchange of India.2) FOMC MeetingGlobally investors will keep a close watch on the outcome of a two-day Federal Open Market Committee (FOMC) meeting during July 26-27. Most analysts expect a 75 basis point hike in interest rates which may be on expected lines as Fed in the previous meeting had hinted at 50-75 bp hike, but if it is one percentage point then that could be a bit of a surprise. The rate action will be aimed at taming inflation but without hurting the labour market, experts said.The expectations are that the Fed may be less hawkish given the fall in commodity prices, though the inflation print for June came in at 9.1 percent, the highest in more than 40 years. All in all the commentary is more important to understand Fed's future course of action.Vikas V Gupta, chief executive officer and chief investment strategist at OmniScience Capital, thinks the Fed is likely to tone down its hawkish stance as crude and commodity prices trending downwards bode well even though the headline inflation has come in quite high at nine percent.\"The Fed wants to bring down inflation but doesn’t want to push the economy into a recession. The current situation demands that the Fed hikes by 75 bps and gives a guidance that they would continue increasing interest rates but would also be vigilant about jobs and wages,\" he said.Apart from the Fed meeting, US GDP growth estimates for the second quarter of the current calendar year will be closely watched by investors next week.3) Global Data PointsHere are key global data points to watch out for in coming week:4) US Dollar Index and Bond YieldsAs we are approaching Fed interest rate decision, the movement in US dollar index and bond yields will be closely watched by investors, which can have some impact on equity markets.The US dollar index, which measures the value of US dollar against the world's leading currencies, dropped to 106.55 levels from 108.54 levels in more than a week's time, but since the last meeting in June, the index increased to 106.55 from 103.63 levels.US 10-year treasury yields corrected sharply in more than a month to 2.76 percent, down from 3.48 percent on June 14.5) FIIs FlowFIIs seem to have renewed their buying interest in India as they turned net buyers on a weekly basis for the first time after several months, purchasing shares worth more than Rs 4,000 crore in the week ended July 22. As a result, their net selling for the month reduced significantly to Rs 6,400 crore from Rs 10,000 crore for July.The fall in dollar index, stabilised oil prices, decline in other commodity prices and reasonable valuations after recent market decline may be a few reasons for sentiment revival at FII desk. Their flow will be closely watched in coming days as Fed is set to announce its interest rate decision next week.Domestic institutional investors (DIIs) remained net buyers during the passing week, buying shares worth Rs 940 crore, taking the total monthly inflow to Rs 8,300 crore in July which completely compensated FII outflow.6) Indian RupeeThe Indian rupee finally breached 80 against the US dollar and remained rangebound around this level throughout the week ahead of Federal Reserve's interest rate decision that could decide the US dollar trend. Even the buying by FIIs and no major increase in oil prices could support the currency.\"Crude price around $105 a barrel in Brent showing volatility but again retracing back to same levels of previous week gave rupee little momentum. All eyes on the Fed statement and policy next week for further cues and direction,\" Jateen Trivedi, vice president, research analyst at LKP Securities, said. Till then, he expects the rupee in the 79.75-80.20 range.7) Oil PricesAfter falling from 2022's peak, crude oil prices have been rangebound below $110 a barrel levels on the Brent crude futures and below $100 a barrel on the US crude futures, which experts feel seem to be supporting the equity market and currency and the same trend is expected to continue in coming days too given the rising demand concerns following aggressive policy tightening by central banks, and a bit of easing in supply concerns after the resumption in Libyan production.Brent crude futures ended at $103.2 a barrel, up two percent, and US oil futures settled at $95.09 a barrel, down 2.6 percent week-on-week.8) Corporate Action and Economic Data PointsHere are key corporate actions taking place in the coming week:On the economic data front, fiscal deficit and infrastructure output for June will be released on Friday. Even bank loan and deposit growth for the fortnight ended July 15 and foreign exchange reserves for the week ended July 22 will be announced on the same day.9) Technical ViewThe Nifty50 has seen a formation of bullish candlestick pattern on the daily and weekly charts, and there was Bullish Engulfing kind of pattern formation on monthly charts, indicating bulls are in action. Hence, the index can face initial resistance at 16,800 mark followed by 17,000 levels as far as it sustains above 200 day exponential moving average (16,521 levels), whereas on the support side 16,500 could act as a crucial level in the coming week, experts said.MACD (moving average convergence divergence) indicated the trend is up with oscillators like RSI (relative strength index) above 60 levels, indicating sentiments are positive, while on the weekly scale, RSI as well as Stochastic indicated strong sentiments, with MACD seeming to be making an attempt to do positive crossover though below zero line.\"Now we are inching closer to the major hurdle of previous swing high i.e. 16,800 in Nifty. A decisive break above that mark would keep the momentum going and help the index to test 17,400. In case of any consolidation 16,250-16,500 zone would act as a support,\" Ajit Mishra, vice president of research at Religare Broking, said.Amid recent buoyancy, traders should maintain their focus on managing overnight risk and stock-specific volatility, which may remain high due to earnings and derivatives expiry, the market expert advised.10) F&O CuesThe Option data indicated that Nifty could trade in a range of 16,000-17,200 in the coming days, with 16,500 as crucial support and 17,000 as hurdle, experts said.On the Option front, we have seen maximum Call open interest at 17,000 strike followed by 16,800 and 16,700 strikes with Call writing at 17,200 strike then 17,100 & 16,700 strikes. The maximum Put open interest was seen at 16,500 strike followed by 16,000 and 15,800 strikes, with Put writing at 16,700 strike then 15,800 and 16,500 strikes.\"From the derivative front, Put writers held maximum open interest at 16,500 strike while Call writers were seen shifting at 16,800 and 17,000 strikes with marginal open interest addition,\" SMC Global said.The volatility index India VIX fell 5.4 percent to 16.65 levels and remained below 18 levels throughout the week, making bulls more comfortable on Dalal Street. If the volatility stays below 18 levels and extends correction further to around 15 levels then that could bring more stability in the market, experts said.Disclaimer: The views and investment tips expressed by investment experts on Moneycontrol.com are their own and not those of the website or its management. Moneycontrol.com advises users to check with certified experts before taking any investment decisions.Disclaimer: MoneyControl is a part of the Network18 group. Network18 is controlled by Independent Media Trust, of which Reliance Industries is the sole beneficiary.",
-            "analysis": 0.03225806451612903
+    const { toSearch } = req.body;
+    let added = "";
+    if (toSearch === "National") {
+        added = "country=in";
+    } else {
+        added = "country=us";
+    }
+    let url = 'https://newsapi.org/v2/top-headlines?' + added + "&category=business&language=en&apiKey=a320967040a846d485081578d0283fa6"
+    axios.get(url).then((respo) => {
+        if (respo.data.articles.length === 0) {
+            res.send({ error: "No news found" });
         }
-    ]);
-
-    // const { toSearch } = req.body;
-    // let added = "";
-    // if (toSearch === "National") {
-    //     added = "country=in";
-    // } else {
-    //     added = "country=us";
-    // }
-    // let url = 'https://newsapi.org/v2/top-headlines?' + added + "&category=business&language=en&apiKey=a320967040a846d485081578d0283fa6"
-    // axios.get(url).then((respo) => {
-    //     if (respo.data.articles.length === 0) {
-    //         res.send({ error: "No news found" });
-    //     }
-    //     var response = [];
-    //     for (var i = 0; i < respo.data.articles.length; i++) {
-    //         if (respo.data.articles[i].content != null) {
-    //             response.push(respo.data.articles[i]);
-    //         }
-    //         if (response.length == 7) {
-    //             break;
-    //         }
-    //     }
-    //     var article_left = response.length;
-    //     for (var i = 0; i < response.length; i++) {
-    //         dotask(response[i]).then((content) => {
-    //             var lexed = aposToLexForm(response[response.length - article_left].description);
-    //             lexed = lexed.toLowerCase();
-    //             var alphaonly = lexed.replace(/[^a-zA-Z0-9\s]/g, '');
-    //             const tokenizer = new WordTokenizer();
-    //             var tokens = tokenizer.tokenize(alphaonly);
-    //             var filtered = SW.removeStopwords(tokens);
-    //             const analyser = new SentimentAnalyzer('English', PorterStemmer, 'afinn');
-    //             const analysis = analyser.getSentiment(filtered);
-    //             response[response.length - article_left].content = content;
-    //             response[response.length - article_left].analysis = analysis;
-    //             article_left--;
-    //             if (article_left === 0) {
-    //                 res.send(response);
-    //             }
-    //         });
-    //     }
-    // });
+        var response = [];
+        for (var i = 0; i < respo.data.articles.length; i++) {
+            if (respo.data.articles[i].content != null) {
+                response.push(respo.data.articles[i]);
+            }
+            if (response.length == 7) {
+                break;
+            }
+        }
+        var article_left = response.length;
+        for (var i = 0; i < response.length; i++) {
+            dotask(response[i]).then((content) => {
+                var lexed = aposToLexForm(response[response.length - article_left].description);
+                lexed = lexed.toLowerCase();
+                var alphaonly = lexed.replace(/[^a-zA-Z0-9\s]/g, '');
+                const tokenizer = new WordTokenizer();
+                var tokens = tokenizer.tokenize(alphaonly);
+                var filtered = SW.removeStopwords(tokens);
+                const analyser = new SentimentAnalyzer('English', PorterStemmer, 'afinn');
+                const analysis = analyser.getSentiment(filtered);
+                response[response.length - article_left].content = content;
+                response[response.length - article_left].analysis = analysis;
+                article_left--;
+                if (article_left === 0) {
+                    res.send(response);
+                }
+            });
+        }
+    });
 });
 
 module.exports = router;
